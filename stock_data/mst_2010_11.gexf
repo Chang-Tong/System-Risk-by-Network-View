@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2021-01-20">
+    <creator>NetworkX 2.5</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <nodes>
+      <node id="*ST安信" label="*ST安信" />
+      <node id="*ST熊猫" label="*ST熊猫" />
+      <node id="上海银行" label="上海银行" />
+      <node id="东兴证券" label="东兴证券" />
+      <node id="东北证券" label="东北证券" />
+      <node id="东吴证券" label="东吴证券" />
+      <node id="东方能源" label="东方能源" />
+      <node id="东方证券" label="东方证券" />
+      <node id="东方财富" label="东方财富" />
+      <node id="中信建投" label="中信建投" />
+      <node id="中信证券" label="中信证券" />
+      <node id="中信银行" label="中信银行" />
+      <node id="中原证券" label="中原证券" />
+      <node id="中国人保" label="中国人保" />
+      <node id="中国人寿" label="中国人寿" />
+      <node id="中国太保" label="中国太保" />
+      <node id="中国平安" label="中国平安" />
+      <node id="中国银河" label="中国银河" />
+      <node id="中国银行" label="中国银行" />
+      <node id="中油资本" label="中油资本" />
+      <node id="中泰证券" label="中泰证券" />
+      <node id="中粮资本" label="中粮资本" />
+      <node id="中航资本" label="中航资本" />
+      <node id="中金公司" label="中金公司" />
+      <node id="中银证券" label="中银证券" />
+      <node id="九鼎投资" label="九鼎投资" />
+      <node id="五矿资本" label="五矿资本" />
+      <node id="交通银行" label="交通银行" />
+      <node id="仁东控股" label="仁东控股" />
+      <node id="光大证券" label="光大证券" />
+      <node id="光大银行" label="光大银行" />
+      <node id="兴业证券" label="兴业证券" />
+      <node id="兴业银行" label="兴业银行" />
+      <node id="农业银行" label="农业银行" />
+      <node id="北京银行" label="北京银行" />
+      <node id="华创阳安" label="华创阳安" />
+      <node id="华夏银行" label="华夏银行" />
+      <node id="华安证券" label="华安证券" />
+      <node id="华林证券" label="华林证券" />
+      <node id="华泰证券" label="华泰证券" />
+      <node id="华西证券" label="华西证券" />
+      <node id="华鑫股份" label="华鑫股份" />
+      <node id="南京证券" label="南京证券" />
+      <node id="南京银行" label="南京银行" />
+      <node id="南华期货" label="南华期货" />
+      <node id="厦门银行" label="厦门银行" />
+      <node id="吉艾科技" label="吉艾科技" />
+      <node id="同花顺" label="同花顺" />
+      <node id="哈投股份" label="哈投股份" />
+      <node id="国信证券" label="国信证券" />
+      <node id="国元证券" label="国元证券" />
+      <node id="国投资本" label="国投资本" />
+      <node id="国泰君安" label="国泰君安" />
+      <node id="国海证券" label="国海证券" />
+      <node id="国盛金控" label="国盛金控" />
+      <node id="国网英大" label="国网英大" />
+      <node id="国联证券" label="国联证券" />
+      <node id="国金证券" label="国金证券" />
+      <node id="大智慧" label="大智慧" />
+      <node id="天茂集团" label="天茂集团" />
+      <node id="天风证券" label="天风证券" />
+      <node id="太平洋" label="太平洋" />
+      <node id="宁波银行" label="宁波银行" />
+      <node id="宝德股份" label="宝德股份" />
+      <node id="山西证券" label="山西证券" />
+      <node id="工商银行" label="工商银行" />
+      <node id="常熟银行" label="常熟银行" />
+      <node id="平安银行" label="平安银行" />
+      <node id="广发证券" label="广发证券" />
+      <node id="建设银行" label="建设银行" />
+      <node id="张家港行" label="张家港行" />
+      <node id="成都银行" label="成都银行" />
+      <node id="招商证券" label="招商证券" />
+      <node id="招商银行" label="招商银行" />
+      <node id="指南针" label="指南针" />
+      <node id="新力金融" label="新力金融" />
+      <node id="新华保险" label="新华保险" />
+      <node id="方正证券" label="方正证券" />
+      <node id="无锡银行" label="无锡银行" />
+      <node id="杭州银行" label="杭州银行" />
+      <node id="民生控股" label="民生控股" />
+      <node id="民生银行" label="民生银行" />
+      <node id="江苏租赁" label="江苏租赁" />
+      <node id="江苏银行" label="江苏银行" />
+      <node id="江阴银行" label="江阴银行" />
+      <node id="泛海控股" label="泛海控股" />
+      <node id="浙商证券" label="浙商证券" />
+      <node id="浙商银行" label="浙商银行" />
+      <node id="浙江东方" label="浙江东方" />
+      <node id="浦发银行" label="浦发银行" />
+      <node id="海德股份" label="海德股份" />
+      <node id="海通证券" label="海通证券" />
+      <node id="渝农商行" label="渝农商行" />
+      <node id="湘财股份" label="湘财股份" />
+      <node id="爱建集团" label="爱建集团" />
+      <node id="瑞达期货" label="瑞达期货" />
+      <node id="申万宏源" label="申万宏源" />
+      <node id="第一创业" label="第一创业" />
+      <node id="紫金银行" label="紫金银行" />
+      <node id="红塔证券" label="红塔证券" />
+      <node id="经纬纺机" label="经纬纺机" />
+      <node id="绿庭B股" label="绿庭B股" />
+      <node id="绿庭投资" label="绿庭投资" />
+      <node id="苏农银行" label="苏农银行" />
+      <node id="苏州银行" label="苏州银行" />
+      <node id="西南证券" label="西南证券" />
+      <node id="西安银行" label="西安银行" />
+      <node id="西水股份" label="西水股份" />
+      <node id="西部证券" label="西部证券" />
+      <node id="西部资源" label="西部资源" />
+      <node id="财通证券" label="财通证券" />
+      <node id="贵阳银行" label="贵阳银行" />
+      <node id="越秀金控" label="越秀金控" />
+      <node id="邮储银行" label="邮储银行" />
+      <node id="郑州银行" label="郑州银行" />
+      <node id="锦龙股份" label="锦龙股份" />
+      <node id="长城证券" label="长城证券" />
+      <node id="长江证券" label="长江证券" />
+      <node id="长沙银行" label="长沙银行" />
+      <node id="陕国投A" label="陕国投A" />
+      <node id="青农商行" label="青农商行" />
+      <node id="青岛银行" label="青岛银行" />
+      <node id="鲁信创投" label="鲁信创投" />
+    </nodes>
+    <edges>
+      <edge source="*ST安信" target="鲁信创投" id="0" weight="0.9791179119711528" />
+      <edge source="*ST熊猫" target="绿庭B股" id="1" weight="1.2177011088311027" />
+      <edge source="上海银行" target="江苏银行" id="2" weight="0.455475202984127" />
+      <edge source="东兴证券" target="东北证券" id="3" weight="0.34557769612999556" />
+      <edge source="东兴证券" target="西南证券" id="4" weight="0.3735043624092409" />
+      <edge source="东兴证券" target="国投资本" id="5" weight="0.43416448208845093" />
+      <edge source="东北证券" target="五矿资本" id="6" weight="0.5452149886184938" />
+      <edge source="东吴证券" target="申万宏源" id="7" weight="0.29207251167766846" />
+      <edge source="东吴证券" target="第一创业" id="8" weight="0.41889729380142016" />
+      <edge source="东吴证券" target="华创阳安" id="9" weight="0.42328617210634173" />
+      <edge source="东吴证券" target="长城证券" id="10" weight="0.45651403068957136" />
+      <edge source="东吴证券" target="兴业证券" id="11" weight="0.6364430996324747" />
+      <edge source="东方能源" target="中国人保" id="12" weight="0.7250193631702099" />
+      <edge source="东方证券" target="山西证券" id="13" weight="0.5148452014941551" />
+      <edge source="东方证券" target="长江证券" id="14" weight="0.6043544890413083" />
+      <edge source="东方财富" target="广发证券" id="15" weight="0.45392627072899605" />
+      <edge source="中信建投" target="中信证券" id="16" weight="0.47972098729539286" />
+      <edge source="中信建投" target="天茂集团" id="17" weight="0.7793112416477956" />
+      <edge source="中信证券" target="华林证券" id="18" weight="0.37951523468796616" />
+      <edge source="中信证券" target="太平洋" id="19" weight="0.42287858910278603" />
+      <edge source="中信证券" target="哈投股份" id="20" weight="0.4507774304469874" />
+      <edge source="中信证券" target="浙商证券" id="21" weight="0.5105846343574559" />
+      <edge source="中信银行" target="北京银行" id="22" weight="0.3752929320470866" />
+      <edge source="中信银行" target="浦发银行" id="23" weight="0.4743388304747653" />
+      <edge source="中原证券" target="华安证券" id="24" weight="0.418774119413125" />
+      <edge source="中原证券" target="西南证券" id="25" weight="0.42857637200386967" />
+      <edge source="中原证券" target="山西证券" id="26" weight="0.4371900169974131" />
+      <edge source="中原证券" target="浙江东方" id="27" weight="0.7321112836240236" />
+      <edge source="中国人保" target="新力金融" id="28" weight="0.4747230373722035" />
+      <edge source="中国人保" target="中国太保" id="29" weight="0.7751045524087085" />
+      <edge source="中国人寿" target="新华保险" id="30" weight="0.5375106816811575" />
+      <edge source="中国人寿" target="长沙银行" id="31" weight="0.6507298974338123" />
+      <edge source="中国太保" target="中国平安" id="32" weight="0.7589727789285552" />
+      <edge source="中国银河" target="中航资本" id="33" weight="0.5503373901882105" />
+      <edge source="中国银河" target="国元证券" id="34" weight="0.5523162627549026" />
+      <edge source="中国银河" target="中粮资本" id="35" weight="0.7734966522119295" />
+      <edge source="中国银行" target="工商银行" id="36" weight="0.3870476408256035" />
+      <edge source="中油资本" target="江苏租赁" id="37" weight="0.4906604615240568" />
+      <edge source="中油资本" target="国泰君安" id="38" weight="0.5175073286086372" />
+      <edge source="中泰证券" target="财通证券" id="39" weight="0.5466505178167764" />
+      <edge source="中泰证券" target="中银证券" id="40" weight="0.701188026944685" />
+      <edge source="中金公司" target="国元证券" id="41" weight="0.8981440778667403" />
+      <edge source="九鼎投资" target="经纬纺机" id="42" weight="0.7555954835830543" />
+      <edge source="九鼎投资" target="宝德股份" id="43" weight="0.8217583086876127" />
+      <edge source="五矿资本" target="越秀金控" id="44" weight="0.4391715234118691" />
+      <edge source="五矿资本" target="爱建集团" id="45" weight="0.61098712454944" />
+      <edge source="交通银行" target="工商银行" id="46" weight="0.38682247109944573" />
+      <edge source="交通银行" target="民生银行" id="47" weight="0.38944983848533243" />
+      <edge source="交通银行" target="北京银行" id="48" weight="0.38975053974901863" />
+      <edge source="交通银行" target="建设银行" id="49" weight="0.5520347121846388" />
+      <edge source="仁东控股" target="华鑫股份" id="50" weight="0.9662991253649418" />
+      <edge source="光大证券" target="太平洋" id="51" weight="0.46801308280964443" />
+      <edge source="光大银行" target="浦发银行" id="52" weight="0.538703763563274" />
+      <edge source="光大银行" target="招商银行" id="53" weight="0.6426842823948602" />
+      <edge source="光大银行" target="兴业银行" id="54" weight="0.7709450309882031" />
+      <edge source="兴业银行" target="平安银行" id="55" weight="0.7742893807012987" />
+      <edge source="农业银行" target="工商银行" id="56" weight="0.36170971518914874" />
+      <edge source="农业银行" target="邮储银行" id="57" weight="0.7046614217064447" />
+      <edge source="华夏银行" target="郑州银行" id="58" weight="0.5501328285303734" />
+      <edge source="华林证券" target="湘财股份" id="59" weight="0.7511876018593517" />
+      <edge source="华泰证券" target="国泰君安" id="60" weight="0.5147304498021158" />
+      <edge source="华泰证券" target="经纬纺机" id="61" weight="0.6364423503798915" />
+      <edge source="华西证券" target="申万宏源" id="62" weight="0.40850857159403003" />
+      <edge source="华鑫股份" target="国投资本" id="63" weight="0.5678677447947158" />
+      <edge source="南京证券" target="西部证券" id="64" weight="0.4039478795051772" />
+      <edge source="南京证券" target="同花顺" id="65" weight="0.5069973440954368" />
+      <edge source="南京证券" target="民生控股" id="66" weight="0.6579890274581658" />
+      <edge source="南京证券" target="西水股份" id="67" weight="0.9617517468892826" />
+      <edge source="南京银行" target="江苏银行" id="68" weight="0.532737474811129" />
+      <edge source="南华期货" target="经纬纺机" id="69" weight="0.624239137117105" />
+      <edge source="南华期货" target="青岛银行" id="70" weight="0.6938327409415588" />
+      <edge source="南华期货" target="瑞达期货" id="71" weight="0.7501089901328412" />
+      <edge source="厦门银行" target="苏州银行" id="72" weight="0.6648563925534969" />
+      <edge source="吉艾科技" target="同花顺" id="73" weight="0.6042015921582543" />
+      <edge source="吉艾科技" target="指南针" id="74" weight="0.7030266021434441" />
+      <edge source="同花顺" target="大智慧" id="75" weight="0.4801571978015242" />
+      <edge source="同花顺" target="红塔证券" id="76" weight="0.538839256099309" />
+      <edge source="国信证券" target="国元证券" id="77" weight="0.46077704356910776" />
+      <edge source="国元证券" target="申万宏源" id="78" weight="0.38317330944444267" />
+      <edge source="国泰君安" target="新力金融" id="79" weight="0.5163347311063914" />
+      <edge source="国海证券" target="西南证券" id="80" weight="0.5319216406017867" />
+      <edge source="国盛金控" target="成都银行" id="81" weight="0.7765397299687345" />
+      <edge source="国网英大" target="指南针" id="82" weight="0.9749553015168964" />
+      <edge source="国联证券" target="财通证券" id="83" weight="0.6388275140118317" />
+      <edge source="国金证券" target="浙商证券" id="84" weight="0.7480518536057398" />
+      <edge source="大智慧" target="广发证券" id="85" weight="0.3671345150199139" />
+      <edge source="大智慧" target="绿庭B股" id="86" weight="0.7805734279585654" />
+      <edge source="天风证券" target="西南证券" id="87" weight="0.3426644690011469" />
+      <edge source="太平洋" target="西南证券" id="88" weight="0.3879853760394424" />
+      <edge source="太平洋" target="锦龙股份" id="89" weight="0.41936313254403085" />
+      <edge source="太平洋" target="财通证券" id="90" weight="0.5092112571852415" />
+      <edge source="太平洋" target="方正证券" id="91" weight="0.5955666450935061" />
+      <edge source="宁波银行" target="长沙银行" id="92" weight="0.7163707289263762" />
+      <edge source="常熟银行" target="杭州银行" id="93" weight="0.6208717162581773" />
+      <edge source="建设银行" target="成都银行" id="94" weight="0.538910648992051" />
+      <edge source="张家港行" target="无锡银行" id="95" weight="0.3430940725796118" />
+      <edge source="张家港行" target="苏农银行" id="96" weight="0.6319705622150243" />
+      <edge source="成都银行" target="长沙银行" id="97" weight="0.5271816275661357" />
+      <edge source="成都银行" target="杭州银行" id="98" weight="0.8027844257948523" />
+      <edge source="招商证券" target="第一创业" id="99" weight="0.47579701867406177" />
+      <edge source="方正证券" target="西部资源" id="100" weight="1.0221218798510456" />
+      <edge source="无锡银行" target="江阴银行" id="101" weight="0.3846712881178364" />
+      <edge source="无锡银行" target="紫金银行" id="102" weight="0.39432891789115204" />
+      <edge source="民生银行" target="渝农商行" id="103" weight="0.38018437517566017" />
+      <edge source="江苏租赁" target="贵阳银行" id="104" weight="0.5416556015948117" />
+      <edge source="江苏银行" target="渝农商行" id="105" weight="0.3723015084336073" />
+      <edge source="江苏银行" target="紫金银行" id="106" weight="0.4213889597017815" />
+      <edge source="江苏银行" target="贵阳银行" id="107" weight="0.4534830975860527" />
+      <edge source="泛海控股" target="西部证券" id="108" weight="0.5847153033613005" />
+      <edge source="浙商银行" target="紫金银行" id="109" weight="0.3967617851445641" />
+      <edge source="浙商银行" target="陕国投A" id="110" weight="0.5294735467031499" />
+      <edge source="海德股份" target="西部证券" id="111" weight="0.8550785943621054" />
+      <edge source="海通证券" target="财通证券" id="112" weight="0.6530874381877828" />
+      <edge source="渝农商行" target="郑州银行" id="113" weight="0.388669015810565" />
+      <edge source="申万宏源" target="西南证券" id="114" weight="0.3451709944727153" />
+      <edge source="申万宏源" target="西部证券" id="115" weight="0.3485574679251429" />
+      <edge source="紫金银行" target="青农商行" id="116" weight="0.3694210790209709" />
+      <edge source="紫金银行" target="苏州银行" id="117" weight="0.47388928832005844" />
+      <edge source="绿庭投资" target="越秀金控" id="118" weight="0.5662301647803296" />
+      <edge source="西南证券" target="陕国投A" id="119" weight="0.38329812330210256" />
+      <edge source="西安银行" target="青农商行" id="120" weight="0.3243481381865745" />
+      <edge source="锦龙股份" target="鲁信创投" id="121" weight="0.7284554568536227" />
+    </edges>
+  </graph>
+</gexf>
