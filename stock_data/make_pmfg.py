@@ -18,30 +18,41 @@ import networkx as nx
 # #### Firstly, we need to sort the graph with respect to weights in descending order
 
 # %%
-def sort_graph_edges(G,method):
+def sort_graph_edges_corr(G):
     sorted_edges = []
-    if method == 'distance':
-        for source, dest, data in sorted(G.edges(data=True), key=lambda x: x[2]['weight'], reverse = True): # in descending order!
-            sorted_edges.append({'source': source,
-                                'dest': dest,
-                                'weight': data['weight']})
-    if method == 'corr':
-        for source, dest, data in sorted(G.edges(data=True), key=lambda x: x[2]['weight'], reverse = False): # in descending order!
-            sorted_edges.append({'source': source,
-                                'dest': dest,
-                                'weight': data['weight']})
+    # if method == 'corr':
+    tmp = sorted(G.edges(data=True), key=lambda x: x[2]['weight'], reverse = True)
+    for source, dest, data in tmp: # in descending order!
+        # print(data)
+        sorted_edges.append({'source': source,
+                            'dest': dest,
+                            'weight': data['weight']})
+    # print(sorted_edges)
+    return sorted_edges
+
+#%%
+def sort_graph_edges_distance(G):
+    sorted_edges = []
+    # if method == 'corr':
+    tmp = sorted(G.edges(data=True), key=lambda x: x[2]['weight'], reverse = False)
+    for source, dest, data in tmp: # in descending order!
+        # print(data)
+        sorted_edges.append({'source': source,
+                            'dest': dest,
+                            'weight': data['weight']})
+    # print(sorted_edges)
     return sorted_edges
 
 # %% [markdown]
 # #### the main function to compute PMFG. FIrstly, we sort the graph edges then add edges in descending order and check if the PMFG is planar. if not, we get rid of the edge from the PMFG
 
 # %%
-def compute_PMFG(G,method):
+def compute_PMFG_corr(G):
     PMFG = nx.Graph() # initialize
     ne_total = G.number_of_edges()
     nb_nodes = len(G.nodes)
     ne_pmfg = 3*(nb_nodes-2)
-    sorted_edges = sort_graph_edges(G,method)
+    sorted_edges = sort_graph_edges_corr(G)
     t0 = time.time()
     for i, edge in enumerate(sorted_edges):
         PMFG.add_edge(edge['source'], edge['dest'], weight = edge['weight'])
@@ -53,6 +64,23 @@ def compute_PMFG(G,method):
             break
     return PMFG
 
+# %%
+def compute_PMFG_distance(G):
+    PMFG = nx.Graph() # initialize
+    ne_total = G.number_of_edges()
+    nb_nodes = len(G.nodes)
+    ne_pmfg = 3*(nb_nodes-2)
+    sorted_edges = sort_graph_edges_distance(G)
+    t0 = time.time()
+    for i, edge in enumerate(sorted_edges):
+        PMFG.add_edge(edge['source'], edge['dest'], weight = edge['weight'])
+        if not planarity.is_planar(PMFG):
+            PMFG.remove_edge(edge['source'], edge['dest'])
+        ne = PMFG.number_of_edges()
+        print("Generating PMFG... added edges in PMFG %d/%d (%.2f%%) lookup edges in G %d/%d (%.2f%%) Elapsed TIme %.2f [sec]"            %(ne, ne_pmfg, (ne/ne_pmfg)*100, i, ne_total, (i+1/ne_total)*100, time.time()-t0), end="\r")
+        if ne == ne_pmfg:
+            break
+    return PMFG
 # %% [markdown]
 # ## Example of generating PMFG
 
