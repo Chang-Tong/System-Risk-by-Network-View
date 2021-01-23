@@ -47,7 +47,7 @@ def sort_graph_edges_distance(G):
 # #### the main function to compute PMFG. FIrstly, we sort the graph edges then add edges in descending order and check if the PMFG is planar. if not, we get rid of the edge from the PMFG
 
 # %%
-def compute_PMFG_corr(G):
+def compute_PMFG(G):
     PMFG = nx.Graph() # initialize
     ne_total = G.number_of_edges()
     nb_nodes = len(G.nodes)
@@ -64,23 +64,6 @@ def compute_PMFG_corr(G):
             break
     return PMFG
 
-# %%
-def compute_PMFG_distance(G):
-    PMFG = nx.Graph() # initialize
-    ne_total = G.number_of_edges()
-    nb_nodes = len(G.nodes)
-    ne_pmfg = 3*(nb_nodes-2)
-    sorted_edges = sort_graph_edges_distance(G)
-    t0 = time.time()
-    for i, edge in enumerate(sorted_edges):
-        PMFG.add_edge(edge['source'], edge['dest'], weight = edge['weight'])
-        if not planarity.is_planar(PMFG):
-            PMFG.remove_edge(edge['source'], edge['dest'])
-        ne = PMFG.number_of_edges()
-        print("Generating PMFG... added edges in PMFG %d/%d (%.2f%%) lookup edges in G %d/%d (%.2f%%) Elapsed TIme %.2f [sec]"            %(ne, ne_pmfg, (ne/ne_pmfg)*100, i, ne_total, (i+1/ne_total)*100, time.time()-t0), end="\r")
-        if ne == ne_pmfg:
-            break
-    return PMFG
 # %% [markdown]
 # ## Example of generating PMFG
 
