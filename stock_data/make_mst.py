@@ -26,7 +26,7 @@ def get_graph_corr(month):
     one_month = raw_data[raw_data['month']==month]
     pivot_m = pd.pivot_table(data=one_month,values='return',columns='简称',index='日期')
     corr=pivot_m.corr()
-    corr = np.abs(corr)
+    # corr = np.abs(corr)
     # print(corr)
     zipped = []
     for i in range(len(corr.columns)):
@@ -142,7 +142,7 @@ def get_graph_distance(month):
 # %%
 def main(month):
     G = get_graph_distance(month)
-    get_mst(G)
+    # get_mst(G)
 
 
 # %%
