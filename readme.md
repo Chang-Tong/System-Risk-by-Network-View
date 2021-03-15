@@ -24,15 +24,15 @@
 
 本文首先探究金融行业在过去十年中对证券市场影响力的变化，依照证监会行业分类，讲股票所在行业分为种行业，本文将每个行业的每支股票跟另一个行业的每一支股票的相关系数再乘上他们各自的权重，变成行业之间的相关系数，这样做的好处是将其结果计算介于 -1与1之间，并且能够有效降低网络中的节点个数，减轻算力负担。
 $$
-\rho_{IJ}=\sum_{i=1}^{n}\sum_{j=1}^{m} w_iw_j\rho_{ij}
+<img src="http://latex.codecogs.com/gif.latex?\rho_{IJ}=\sum_{i=1}^{n}\sum_{j=1}^{m} w_iw_j\rho_{ij}"/>
 $$
 其中：
 $$
-\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}
+<img src="http://latex.codecogs.com/gif.latex?\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}"/>
 $$
 再将相关系数转化成网络节点之间的距离，公式如下：
 $$
-D_{ij}=\sqrt{2(1-\rho_{ij})}
+<img src="http://latex.codecogs.com/gif.latex?D_{ij}=\sqrt{2(1-\rho_{ij})}" />
 $$
 得到一个全联接的regular network，随后在此基础上构建$PMFG$进行简化。
 
@@ -46,11 +46,11 @@ $$
 
 直接依照以下公式计算相关系数即可。
 $$
-\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}
+<img src="http://latex.codecogs.com/gif.latex?\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}"\>
 $$
 再将相关系数转化成网络节点之间的距离，公式如下：
 $$
-D_{ij}=\sqrt{2(1-\rho_{ij})}
+<img src="http://latex.codecogs.com/gif.latex?D_{ij}=\sqrt{2(1-\rho_{ij})}"\>
 $$
 得到一个全联接的regular network，随后在此基础上构建$PMFG$进行简化。
 
