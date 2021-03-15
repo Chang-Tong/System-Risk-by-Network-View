@@ -46,11 +46,11 @@
 
 直接依照以下公式计算相关系数即可。
 
-<img src="http://latex.codecogs.com/gif.latex?\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}"\>
+<img src="http://latex.codecogs.com/gif.latex?\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}"/>
 
 再将相关系数转化成网络节点之间的距离，公式如下：
 
-<img src="http://latex.codecogs.com/gif.latex?D_{ij}=\sqrt{2(1-\rho_{ij})}"\>
+<img src="http://latex.codecogs.com/gif.latex?D_{ij}=\sqrt{2(1-\rho_{ij})}"/>
 
 得到一个全联接的regular network，随后在此基础上构建$PMFG$进行简化。
 
