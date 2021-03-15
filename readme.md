@@ -23,17 +23,17 @@
 ##### **全行业网络构建方法**
 
 本文首先探究金融行业在过去十年中对证券市场影响力的变化，依照证监会行业分类，讲股票所在行业分为种行业，本文将每个行业的每支股票跟另一个行业的每一支股票的相关系数再乘上他们各自的权重，变成行业之间的相关系数，这样做的好处是将其结果计算介于 -1与1之间，并且能够有效降低网络中的节点个数，减轻算力负担。
-$$
+
 <img src="http://latex.codecogs.com/gif.latex?\rho_{IJ}=\sum_{i=1}^{n}\sum_{j=1}^{m} w_iw_j\rho_{ij}"/>
-$$
+
 其中：
-$$
+
 <img src="http://latex.codecogs.com/gif.latex?\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}"/>
-$$
+
 再将相关系数转化成网络节点之间的距离，公式如下：
-$$
+
 <img src="http://latex.codecogs.com/gif.latex?D_{ij}=\sqrt{2(1-\rho_{ij})}" />
-$$
+
 得到一个全联接的regular network，随后在此基础上构建$PMFG$进行简化。
 
 之所以使用$PMFG$构建网络，而不使用$MST$构建网络，是因为$PMFG$能够保留更多的信息，其构建出来的子图更有代表性。$PMFG$所留下来的边的数量为$3(n-2)$，而$MST$所剩余的边的数量为$(n-1)$条。
@@ -45,13 +45,13 @@ $$
 与全行业网络构建的方法类似，主要的区别在于金融行业网络的构建后，其节点不是行业，而是金融企业的股票。也正是因为如此，其构建不需要计算权重。
 
 直接依照以下公式计算相关系数即可。
-$$
+
 <img src="http://latex.codecogs.com/gif.latex?\rho_{ij}=corr(i,j)=\frac{cov(i,j)}{\sqrt{Var(i)Var(j)}}"\>
-$$
+
 再将相关系数转化成网络节点之间的距离，公式如下：
-$$
+
 <img src="http://latex.codecogs.com/gif.latex?D_{ij}=\sqrt{2(1-\rho_{ij})}"\>
-$$
+
 得到一个全联接的regular network，随后在此基础上构建$PMFG$进行简化。
 
 得到PMFG的如下图所示：
