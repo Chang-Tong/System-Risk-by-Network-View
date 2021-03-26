@@ -3,3 +3,178 @@
 stock_data/entropy.ipynb
 __pychache__
 .DS_Store
+CSRC INDUSTRIES/2010 corr.csv
+CSRC INDUSTRIES/2010 first-level corr.csv
+CSRC INDUSTRIES/2011 corr.csv
+CSRC INDUSTRIES/2011 first-level corr.csv
+CSRC INDUSTRIES/2012 corr.csv
+CSRC INDUSTRIES/2012 first-level corr.csv
+CSRC INDUSTRIES/2013 corr.csv
+CSRC INDUSTRIES/2013 first-level corr.csv
+CSRC INDUSTRIES/2014 corr.csv
+CSRC INDUSTRIES/2014 first-level corr.csv
+CSRC INDUSTRIES/2015 corr.csv
+CSRC INDUSTRIES/2015 first-level corr.csv
+CSRC INDUSTRIES/2016 corr.csv
+CSRC INDUSTRIES/2016 first-level corr.csv
+CSRC INDUSTRIES/2017 corr.csv
+CSRC INDUSTRIES/2017 first-level corr.csv
+CSRC INDUSTRIES/2018 corr.csv
+CSRC INDUSTRIES/2018 first-level corr.csv
+CSRC INDUSTRIES/2019 corr.csv
+CSRC INDUSTRIES/2019 first-level corr.csv
+CSRC INDUSTRIES/2020 corr.csv
+CSRC INDUSTRIES/2020 first-level corr.csv
+CSRC INDUSTRIES/all_first_level_10_20.csv
+CSRC INDUSTRIES/all_first_level.csv
+CSRC INDUSTRIES/whole1.csv
+CSRC INDUSTRIES/18FIrst-level/交通运输仓储邮政业.csv
+CSRC INDUSTRIES/18FIrst-level/住宿和餐饮业.csv
+CSRC INDUSTRIES/18FIrst-level/信息传输、软件和信息技术服务业.csv
+CSRC INDUSTRIES/18FIrst-level/农林牧渔业.csv
+CSRC INDUSTRIES/18FIrst-level/制造业.csv
+CSRC INDUSTRIES/18FIrst-level/卫生和社会工作业.csv
+CSRC INDUSTRIES/18FIrst-level/居民服务维修业.csv
+CSRC INDUSTRIES/18FIrst-level/建筑业.csv
+CSRC INDUSTRIES/18FIrst-level/批发和零售业.csv
+CSRC INDUSTRIES/18FIrst-level/教育业.csv
+CSRC INDUSTRIES/18FIrst-level/文体娱乐业.csv
+CSRC INDUSTRIES/18FIrst-level/水利、环境和公共设施管理业.csv
+CSRC INDUSTRIES/18FIrst-level/电热燃水生产和供应业.csv
+CSRC INDUSTRIES/18FIrst-level/科学研究和技术服务业.csv
+CSRC INDUSTRIES/18FIrst-level/租赁和商务服务业.csv
+CSRC INDUSTRIES/18FIrst-level/综合业.csv
+CSRC INDUSTRIES/18FIrst-level/采矿业.csv
+CSRC INDUSTRIES/18FIrst-level/金融业.csv
+CSRC INDUSTRIES/First-level industry/建筑业/教育业.csv
+CSRC INDUSTRIES/industies data/房地产/000002.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000006.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000007.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000011.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000014.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000029.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000031.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000036.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000042.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000069.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000402.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000502.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000514.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000517.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000537.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000540.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000558.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000560.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000573.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000608.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000615.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000616.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000620.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000631.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000656.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000667.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000668.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000671.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000718.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000720.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000732.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000736.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000797.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000838.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000863.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000886.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000897.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000909.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000918.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000926.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000961.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/000965.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/001914.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/001979.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002016.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002077.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002133.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002146.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002147.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002208.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002244.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002285.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002305.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002314.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002377.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/002968.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/200011.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/200029.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/200168.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/300917.SZ.csv
+CSRC INDUSTRIES/industies data/房地产/600007.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600048.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600064.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600067.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600077.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600082.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600094.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600158.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600159.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600162.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600173.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600185.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600208.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600215.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600223.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600225.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600239.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600246.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600266.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600322.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600325.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600340.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600376.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600383.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600393.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600466.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600503.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600510.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600515.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600533.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600555.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600565.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600604.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600606.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600622.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600638.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600639.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600641.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600649.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600657.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600658.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600663.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600665.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600675.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600683.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600684.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600692.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600696.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600708.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600716.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600736.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600743.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600748.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600773.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600791.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600807.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600823.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600848.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600890.SH.csv
+CSRC INDUSTRIES/industies data/房地产/600895.SH.csv
+CSRC INDUSTRIES/industies data/房地产/601155.SH.csv
+CSRC INDUSTRIES/industies data/房地产/601512.SH.csv
+CSRC INDUSTRIES/industies data/房地产/601588.SH.csv
+CSRC INDUSTRIES/industies data/房地产/603506.SH.csv
+CSRC INDUSTRIES/industies data/房地产/900902.SH.csv
+CSRC INDUSTRIES/industies data/房地产/900911.SH.csv
+CSRC INDUSTRIES/industies data/房地产/900928.SH.csv
+CSRC INDUSTRIES/industies data/房地产/900932.SH.csv
+CSRC INDUSTRIES/industies data/房地产/900940.SH.csv
+CSRC INDUSTRIES/industies data/房地产/900955.SH.csv
+CSRC INDUSTRIES/industies data/房地产/900957.SH.csv
